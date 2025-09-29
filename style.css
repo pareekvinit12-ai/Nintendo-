@@ -383,3 +383,143 @@ tr:nth-child(even) {
   background-color: bisque;
   padding: 30px;
 }
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .mainbody{
+        width: 100%;
+  height: 70vh;
+  font-size: 10px;
+  
+    }
+    .vinit{
+        font-size: 10px;
+    }
+    .rohit{
+        padding: 10px;
+        font-size: 16px; 
+    }
+    .ravi{
+       padding: 10px;
+        font-size: 16px;  
+    }
+    .madu{
+        padding: 10px;
+        font-size: 16px; 
+    }
+    .sachin{
+        margin-top: 5px;
+    }
+}
+@media (max-width: 576px){
+    .sachin{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .mainbody{
+        width: 100%;
+        /* padding: 10px; */
+        height: 70vh;
+
+    }
+    .one{
+        font-size: 8px;
+    }
+    .borderbox{
+        width: 100%;
+        /* padding: 10px; */
+        height: 70vh;
+    }
+
+    .rohit{
+        padding: 10px;
+        font-size: 16px; 
+        width: 100%;
+    }
+    .ravi{
+       padding: 10px;
+        font-size: 16px;  
+        width: 100%;
+    }
+    .madu{
+        padding: 10px;
+        font-size: 16px; 
+        width: 100%;
+    }
+    .sachin{
+        /* margin-top: 5px; */
+
+    }
+    .mainabc{
+        flex-direction: column;
+    }
+    .prem{
+        font-size: 20px;
+    }
+    .a{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 11px;
+    }
+
+    .b{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 11px;
+    }
+    .c{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 11px;
+    }
+    .maindiv{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 1px;
+        width: 230px;
+    }
+    .mainv{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .v{
+        width: 100%;
+    }
+    .vv{
+        width: 100%;
+    }
+    .vvv{
+        width: 100%;
+    }
+    .mainp{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .p{
+        width: 100%;
+    }
+    .pp{
+        width: 100%;
+    }
+    .ppp{
+        width: 100%;
+    }
+    .mainm{
+        flex-direction: column;
+    }
+}
