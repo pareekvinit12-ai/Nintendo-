@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.mainbody {
+  position: relative;
+  background-image: url(bg-img.jpg);
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  /* font-family: poppins; */
+}
+.one {
+  padding: 70px 0 0 0;
+}
+
+.two {
+  padding: 18px 0 0 0;
+}
+.three {
+  padding: 18px 0 0 0;
+}
+.forth {
+  padding: 18px 0 0 0;
+}
+.borderbox {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 100%;
+  height: 70vh;
+  z-index: -1;
+}
+form {
+  margin-top: 20px;
+}
+form button {
+  border: solid red;
+  background-color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  /* color: white; */
+}
+form input {
+  border: solid white;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  color: white;
+}
+form a {
+  text-decoration: none;
+  color: white;
+}
+.rohit {
+  width: 400px;
+  height: 200px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.rohit h2{
+  font-weight: 500;
+}
+.ravi {
+  width: 400px;
+  height: 200px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.ravi h2{
+  font-weight: 500;
+}
+.madu {
+  width: 400px;
+  height: 200px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.madu h2{
+  font-weight: 500;
+}
+.sachin {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+.vinit {
+  text-align: center;
+  margin-top: 50px;
+}
+.vasu {
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-weight: 400;
+
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  /* font-weight: 300; */
+  font-size: 15px;
+  font-weight: 500;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #222;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.a{
+ text-align: center;
+}
+
+.a img{
+  width: 300px;
+  height: 300px;
+}
+.b{
+  text-align: center;
+}
+.c{
+  text-align: center;
+}
+.c img{
+  width: 300px;
+  height: 300px;
+}
+.b img{
+  width: 300px;
+  height: 300px;
+}
+.mainabc {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding: 15px;
+}
+.prem{
+  text-align: center;
+  margin-top: 50px;
+}
+.heading{
+  text-align: center;
+  margin-top: 50px;
+}
+.w{
+  height: 150px;
+  width: 23%;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+
+}
+.w img{
+  object-fit: cover;
+}
+.x{
+  height: 150px;
+  width: 23%;
+  
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+
+}
+.x img{
+  height: 150px;
+  width: 23%px;
+  object-fit: cover;
+  
+}
+.y{
+  height: 150px;
+  width: 23%;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+
+}
+.y img{
+  height: 150px;
+  width: 23%px;
+  object-fit: cover;
+  text-align: center;
+  
+}
+.z{
+  height: 150px;
+  width: 23%;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+
+}
+.maindiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.z img{
+  height: 150px;
+  width: 270px;
+  object-fit: cover;
+}
+.redline{
+  width: 100%;
+  height: 6px;
+  background-color: red;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.v{
+  width: 350px;
+  height: 150px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  
+}
+.v img{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  bottom: 50px;
+
+  
+}
+.vv{
+  width: 350px;
+  height: 150px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+}
+.vv img{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  bottom: 50px;
+
+  
+}
+.vvv{
+  width: 350px;
+  height: 150px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+}
+.vvv img{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  bottom: 50px;
+
+  
+}
+.mainv{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+.p{
+  width: 350px;
+  height: 200px;
+  background-color: red;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  /* border-radius: 4px 4px 0 0; */
+  position: relative;
+  bottom: 40px;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.p button{
+  background-color: #fff;
+  color: red;
+  margin-top: 30px;
+  border: solid black;
+  padding: 5px;
+  border-radius: 5px;}
+.pp{
+  width: 350px;
+  height: 200px;
+  background-color: red;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  /* border-radius: 4px 4px 0 0; */
+  position: relative;
+  bottom: 40px;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  
+  
+
+}
+.pp button{
+  background-color: #fff;
+  color: red;
+  margin-top: 30px;
+  border: solid black;
+  padding: 5px;
+  border-radius: 5px;}
+.ppp{
+  width: 350px;
+  height: 200px;
+  background-color: red;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.326);
+  /* border-radius: 4px 4px 0 0; */
+  position: relative;
+  bottom: 40px;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  
+  
+}
+.ppp button{
+  background-color: #fff;
+  color: red;
+  margin-top: 30px;
+  border: solid black;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+.mainp{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+.m img{
+  width: 250px;
+  height: 200px;
+}
+.mm{
+  text-align: center;
+  color: red;
+}
+.mm button{
+  background-color: red;
+  border: solid red;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+}
+.mmm img{
+  width: 250px;
+  height: 200px;
+}
+.mainm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+  padding: 30px;
+}
