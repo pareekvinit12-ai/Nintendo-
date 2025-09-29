@@ -53,7 +53,7 @@ form input {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 4px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 form a {
   text-decoration: none;
@@ -425,11 +425,15 @@ tr:nth-child(even) {
     .mainbody{
         width: 100%;
         /* padding: 10px; */
-        height: 70vh;
+        /* height: 70vh; */
+        /* padding: ; */
 
     }
-    .one{
+    .vinit{
         font-size: 8px;
+    }
+    .one{
+        /* font-size: 8px; */
     }
     .borderbox{
         width: 100%;
@@ -490,7 +494,7 @@ tr:nth-child(even) {
         align-items: center;
         justify-content: center;
         padding: 1px;
-        width: 230px;
+        width: 38.5%;
     }
     .mainv{
         flex-direction: column;
@@ -509,12 +513,14 @@ tr:nth-child(even) {
     .mainp{
         flex-direction: column;
         gap: 20px;
+       
     }
     .p{
         width: 100%;
     }
     .pp{
         width: 100%;
+        
     }
     .ppp{
         width: 100%;
